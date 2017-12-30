@@ -1,0 +1,7 @@
+Q. How can I find all the Soft Links in my system ?
+
+A. Use this command for the same “find /etc -type l -exec ls -li {} \;”
+
+Q. How can I find all the files having Hard Links in my system ?
+
+A. Use this command for the same “find / -links +2 -type f -exec ls -li {} \;”
